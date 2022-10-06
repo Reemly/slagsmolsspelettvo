@@ -3,9 +3,13 @@ using System;
 
 public class Heroes
 {
+public int hp = 10;
+public Weapon weapon;
 public string name;
-public int HealthPoints;
 
+public void Engage(Heroes target) {
+
+}
 }
 
 

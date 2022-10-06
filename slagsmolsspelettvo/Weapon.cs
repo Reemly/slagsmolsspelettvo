@@ -1,8 +1,8 @@
 using System;
 
 public class Weapon {
-    public string name;
     private Random ADgenerator;
+    public string name;
 
     public Weapon() {
         ADgenerator = new Random();
