@@ -18,15 +18,24 @@ while (Champion.hp > 0 && Monster.hp > 0)
 
     Champion.Engage(Monster);
     Monster.Engage(Champion);
-    
 
-
-
-
-
-
-
+    Console.WriteLine("fortsätt");
+    Console.ReadLine();
 
 }
 
+if (Champion.hp == 0 && Monster.hp == 0)
+{
+Console.WriteLine("inge van");
+}
+else if (Champion.hp == 0) 
+{
+    Console.WriteLine("monster vann");
+}
+else 
+{
+    Console.WriteLine("champion vann");
+}
 
+Console.WriteLine("spel slut");
+Console.ReadLine();
